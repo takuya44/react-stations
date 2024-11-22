@@ -1,6 +1,7 @@
 // DO NOT DELETE
-
 import './App.css'
+import { Header } from './Header'
+import { Description } from './Description'
 
 /**
  * @type {() => JSX.Element}
@@ -8,7 +9,10 @@ import './App.css'
 export const App = () => {
   return (
     <div>
-      <h2>Hello, world!</h2>
+      {/* ヘッダー */}
+      <Header />
+      {/* サイトの説明・犬の画像・更新ボタン */}
+      <Description />
     </div>
   )
 }
